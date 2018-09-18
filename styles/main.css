@@ -1,22 +1,43 @@
 body {
-  background: #969;
+  background: #989;
   font-family: arial;
+  margin: 0;
 }
 
-h1, h2 {
-  color: #444;
-}
-
-a {
-  color: #000;
-}
-
-p {
-  background: #444;
+header {
+  background: #042;
   color: white;
-  padding: 10px 15px;
+  padding: 10px;
 }
 
-.times {
-  font-family: times
+nav ul {
+  margin:0;
+  padding: 0;
+}
+
+nav li {
+  align-content: center;
+  display: inline-block;
+  text-align: center;
+
+  background: #996;
+
+  width: 12vw;
+  padding: 10px 2vw;
+  border-radius: 5px;
+  margin: 5px 1vw;
+}
+
+.row {
+  margin: 10px 0px;
+}
+
+.column {
+  margin: 1vw;
+  padding: 2vw;
+  display: inline-block;
+  text-align: justify;
+  vertical-align: top;
+  width: 26vw;
+  max-height: 27vw;
 }
