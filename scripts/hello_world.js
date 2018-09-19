@@ -1,8 +1,11 @@
 "use strict" // Tag that makes the entire code work the "modern" way
 
-let yesOrNo = (question) => (confirm(question)) ? showYes() : showNo();
+function pow(x, n) {
+  let result = 1;
 
-let showYes = () => alert("You said yes");
-let showNo = () => alert("You said no");
+  for (let i=0; i<n; i++) {
+    result *= x;
+  }
 
-yesOrNo("Do you?");
+  return result;
+}
